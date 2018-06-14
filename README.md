@@ -13,7 +13,6 @@ Download/Clone/Fork the repo. Open index.html. You are good to go.
 
 * https://dribbble.com/shots/1872107-Catch-me-if-you-can
 * https://dribbble.com/shots/667114-Writers-GIF
-* 
 
 ## Authors
 
