@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo2.css" />
+    <link rel="stylesheet" type="text/css" href="css/lettereffect.css" />
+    <link rel="stylesheet" type="text/css" href="css/timeline.css" />
+    <link rel="stylesheet" type="text/css" href="css/contactus.css">
+    <link rel="stylesheet" type="text/css" href="css/plus.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/effect1.css" />
+    <link rel="stylesheet" href="main.css">
+    <script src="js/modernizr.custom.js"></script>
+    <script>
+        document.documentElement.className = "js";
+        var supportsCssVars = function () {
+            var e, t = document.createElement("style");
+            return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS &&
+                window.CSS.supports &&
+                window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e
+        };
+        supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+    </script>
+</head>
+
+<body class="demo-1">
+    <div id="ip-container" class="ip-container">
+        <header class="ip-header">
+            <h1 class="ip-logo">
+            </h1>
+            <div class="ip-loader">
+                <svg class="ip-inner" width="80px" height="80px" viewBox="0 0 80 80">
+                    <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"
+                    />
+                    <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"
+                    />
+                </svg>
+            </div>
+        </header>
+        <main class="ip-main">
+            <section class="content content--switch content--switch-current content--c2" id="section2">
+                <div class="slideshow slideshow--2" data-effect="fx3">
+                    <div class="slide slide--current">
+                        <h2 class="title title--style-2 title--centered">i design</h2>
+                    </div>
+                    <div class="slide">
+                        <h2 class="title title--style-2 title--centered">i code</h2>
+                    </div>
+                    <div class="slide">
+                        <h2 class="title title--style-2 title--centered">i ride</h2>
+                    </div>
+                </div>
+                <nav class="actions">
+                    <button class="btn btn--trigger btn--prev" id="next-previous">Previous</button>
+                    <button class="btn btn--trigger btn--next" id="next-button">Next</button>
+                </nav>
+            </section>
+            <div class="content content--fixed">
+                <button class="menu-trigger btn btn--trigger button-plus"></button>
+            </div>
+            <div id="content-2" class="content content--switch">
+                <h2 class="content__title">conact me</h2>
+                <p class="content__text">get in touch with me</p>
+                <div id='wrapper'>
+                    <form method="POST" action="https://formspree.io/iam.shashank.suresh@gmail.com" class='form'>
+                        <p class='field required half'>
+                            <label class='label required' for='name'>Name</label>
+                            <input class='text-input' id='name' name='name' required type='text'>
+                        </p>
+                        <p class='field required half'>
+                            <label class='label required' for='email'>E-mail</label>
+                            <input type="email" name="email" class='text-input' required>
+                        </p>
+                        <p class='field'>
+                            <label class='label required' for='message'>Message</label>
+                            <textarea class='textarea' cols='50' id='message' name='message' required rows='4'></textarea>
+                        </p>
+                        <p class='field'>
+                            <input class='menu-trigger btn btn--submit' type='submit' value='Send message'>
+                        </p>
+                    </form>
+                </div>
+            </div>
+            <div id="content-3" class="content content--switch">
+                <h2 class="content__title">my work</h2>
+                <p class="content__text">get in touch with me</p>
+                <div class="work-grid">
+                    <div class="col">
+                        <a href="https://shashanksuresh-dev.bitbucket.io/destinytales/" target="_blank">
+                            <img src="img/dt.png" alt="destiny tales">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://shashanksuresh-dev.bitbucket.io/digitalmarketting/" target="_blank">
+                            <img src="img/dm.png" alt="digital marketting">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="content-4" class="content content--switch">
+                <h2 class="content__title">Speakers</h2>
+                <p class="content__text">bla bla bla.</p>
+            </div>
+            <div id="content-5" class="content content--switch">
+                <h2 class="content__title">passion and interests</h2>
+                <div class="flex-grid">
+                    <div class="col">
+                        <img src="img/coding-d.gif" alt="coding">
+                        <p>
+                            <img class="love" src="img/love.gif" alt="love">coding</p>
+                    </div>
+                    <div class="col">
+                        <img src="img/motorcycle.gif" alt="motorcycle">
+                        <a href="https://www.youtube.com/c/MadrasMotorHead/videos" target="_blank" class="yt-link">
+                            <img class="yt" src="img/yt.gif" alt="youtube" />
+                            <span class="yt-text">Check me out here</span>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <img src="img/design.gif" alt="design">
+                        <p>Freelance Desginer</p>
+                    </div>
+                </div>
+            </div>
+            <div id="content-6" class="content content--switch">
+                <h2 class="content__title">experience</h2>
+                <p class="content__text">Where and What I have been...</p>
+                <ul class="timeline">
+                    <li class="timeline-event">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">Nov '12 - April '16</p>
+                            <h3>ABCO Advisory Services</h3>
+                            <h4>Associate Front End Developer</h4>
+                        </div>
+                    </li>
+                    <li class="timeline-event">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">April '16 - Jan '18</p>
+                            <h3>BORN Group FMG</h3>
+                            <h4>Senior Front End Developer</h4>
+                        </div>
+                    </li>
+                    <li class="timeline-event">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">Jan '18 - Present</p>
+                            <h3>Mindera India</h3>
+                            <h4>Front End Developer</h4>
+                        </div>
+                    </li>
+                    <li class="timeline-event">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">Forever
+                                <3</p>
+                                    <h3>I'll work for you :)</h3>
+                                    <h4>Freelance UI Developer/Designer</h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <nav class="grim">
+                <div class="grim__item">
+                    <div class="grim__item-bg grim__item-bg--1"></div>
+                </div>
+                <div class="grim__item">
+                    <div class="grim__item-bg grim__item-bg--2"></div>
+                </div>
+                <div class="grim__item">
+                    <div class="grim__item-bg grim__item-bg--4"></div>
+                </div>
+                <div class="grim__item">
+                    <div class="grim__item-bg grim__item-bg--6"></div>
+                    <a href="#content-2" class="grim__link grim__item-content">
+                        <div class="grim__item-inner">
+                            <h3 class="grim__item-title">let's get in touch</h3>
+                            <span class="grim__item-desc">beer or coffee ?</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="grim__item">
+                    <div class="grim__item-bg grim__item-bg--2"></div>
+                    <a href="#content-6" class="grim__link grim__item-content">
+                        <div class="grim__item-inner">
+                            <h3 class="grim__item-title">expereince</h3>
+                            <span class="grim__item-desc">i cringe sitting idle</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="grim__item">
+                    <div class="grim__item-bg grim__item-bg--8"></div>
+                    <a href="#content-5" class="grim__link grim__item-content">
+                        <div class="grim__item-inner">
+                            <h3 class="grim__item-title">passion and interests</h3>
+                            <span class="grim__item-desc">what wakes me up every day</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="grim__item">
+                    <div class="grim__item-bg grim__item-bg--7">
+                        <button class="menu-trigger menu-trigger--close">X</button>
+                    </div>
+                    <a href="#content-3" class="grim__link grim__item-content">
+                        <div class="grim__item-inner">
+                            <h3 class="grim__item-title">my works</h3>
+                            <span class="grim__item-desc">when my brain and hands meet</span>
+                        </div>
+                    </a>
+                </div>
+            </nav>
+        </main>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+<script src="js/demo.js"></script>
+<script src="js/anime.min.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/charming.min.js"></script>
+<script src="js/anime.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/pathLoader.js"></script>
+<script src="js/main2.js"></script>
+<script src="js/textfx.js"></script>
+<script src="js/text.js"></script>
+
+</html>

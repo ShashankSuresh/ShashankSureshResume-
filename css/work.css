@@ -1,0 +1,18 @@
+.work-grid {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.work-grid .col {
+    width: 350px;
+    height: 200px;
+    max-width: 400px;
+    text-align: center;
+    border: 1px solid black;
+    margin-right: 40px;
+}
+
+.work-grid .col img {
+    width: 100%;
+}
