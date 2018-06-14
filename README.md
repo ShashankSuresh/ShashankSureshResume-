@@ -16,7 +16,7 @@ Download/Clone/Fork the repo. Open index.html. You are good to go.
 
 ## Authors
 
-* **ShashankSuresh** - *Initial work* - [PurpleBooth](https://github.com/ShashankSuresh)
+* **ShashankSuresh** - *Initial work* - [GitHub](https://github.com/ShashankSuresh)
 
 ## License
 
