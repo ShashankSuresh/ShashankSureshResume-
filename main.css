@@ -2331,3 +2331,12 @@ a:focus {
 	fill: #fff;
 }
 
+.button-container {
+	display: block;
+}
+
+.button-container button {
+	float: right;
+	right: 50px;
+	top: 30px;
+}
